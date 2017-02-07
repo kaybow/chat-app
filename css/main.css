@@ -5,3 +5,8 @@ body {
 .msn-logo {
   width: 3em;
 }
+
+body {
+  margin: 0;
+  background-color: #d7e0f0;
+}
