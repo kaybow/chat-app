@@ -10,13 +10,40 @@ html {
 
 body {
   margin: 0;
+  background-color: #d7e0f0;
+}
+
+header {
+  padding-top: 0.5em;
+  padding-left: 0.5em;
 }
 
 .msn-logo {
   width: 80px;
 }
 
-body {
-  margin: 0;
-  background-color: #d7e0f0;
+.form {
+  padding: 40px;
+  max-width:600px;
+  margin:40px auto;
 }
+
+.button-block {
+  display:block;
+  width:100%;
+}
+
+.button {
+  border:0;
+  outline:none;
+  border-radius:0;
+  padding:15px 0;
+  font-size:1rem;
+  text-decoration: underline;
+  }
+
+  .field-wrap {
+  position:relative;
+  margin-bottom:40px;
+}
+
