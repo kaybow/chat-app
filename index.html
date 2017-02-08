@@ -10,6 +10,7 @@
   <link href="css/grids.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 </head>
 
 <body>
@@ -50,8 +51,13 @@
         </div>
       </div>
 
-      <p>Status: Online</p>
-      <p>Remember Me<br>Remember My Password</br>Sign me in automatically</p>
+      <div class="milli pad-b checkbox">
+        <form action="preferences">
+          <input type="checkbox" name="preference" value="remember me">Remember Me<br>
+          <input type="checkbox" name="preference" value="remember password">Remember My Password<br>
+          <input type="checkbox" name="preference" value="remember password">Sign me in automatically<br>
+        </form>
+      </div>
 
       <center>
         <button type="submit" class="button button-block"/>Sign In</button>
@@ -62,10 +68,10 @@
 
   <footer>
     <div class="grid">
-      <div class="unit s-1 m-1-2 l-1-2 milli">
+      <div class="unit xs-1 s-1-2 m-1-2 l-1-2 milli">
         <p>Forgot your password?<br>Service status</p>
       </div>
-      <div class="unit s-1 m-1-2 l-1-2 text-right milli account">
+      <div class="unit xs-1 s-1-2 m-1-2 l-1-2 text-right milli account">
         <p>Get a new account</p>
       </div>
     </div>

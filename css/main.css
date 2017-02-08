@@ -6,6 +6,7 @@ html {
   -webkit-text-size-adjust: 100%;
   ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: 'Inconsolata', monospace;
 }
 
 body {
@@ -29,7 +30,7 @@ header {
 
 .form {
   padding: 55px;
-  max-width: 300px;
+  max-width: 350px;
   margin: 10px auto;
 }
 
@@ -60,7 +61,7 @@ footer {
   padding-left: 1em;
 }
 
-p, label {
+p, label, .checkbox {
   color: blue;
 }
 
