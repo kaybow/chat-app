@@ -15,9 +15,9 @@
 <body>
 
 
-    <header>
-      <img class="msn-logo" src="images/MSN_logo.png"></img>
-    </header>
+  <header>
+    <img class="msn-logo" src="images/MSN_logo.png"></img>
+  </header>
 
   <main>
     <div>
@@ -30,17 +30,20 @@
 
       <div class="field-wrap">
         <label>
-          Email Address<span>*</span>
+          Email Address:<span></span>
         </label>
         <input type="email"required autocomplete="off"/>
       </div>
 
       <div class="field-wrap">
         <label>
-          Password<span>*</span>
+          Password:<span></span>
         </label>
         <input type="password"required autocomplete="off"/>
       </div>
+
+      <p>Status: Online</p>
+      <p>Remember Me<br>Remember My Password</br>Sign me in automatically</p>
 
       <center>
         <button type="submit" class="button button-block"/>Sign In</button>
@@ -50,8 +53,14 @@
   </main>
 
   <footer>
-      <a>Forgot your password?</a>
-      <a>Service status</a>
+    <div class="grid">
+      <div class="unit s-1 m-1-2 l-1-2">
+        <p>Forgot your password?<br>Service status</p>
+      </div>
+      <div class="unit s-1 m-1-2 l-1-2 text-right gutter-1-2">
+        <p>Get a new account</p>
+      </div>
+    </div>
   </footer>
 
 </body>

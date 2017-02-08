@@ -24,13 +24,13 @@ header {
 
 .msn-icon {
   width: 175px;
-  padding-top: 70px;
+  padding-top: 30px;
 }
 
 .form {
   padding: 40px;
   max-width:600px;
-  margin:40px auto;
+  margin: 10px auto;
 
 }
 
@@ -54,8 +54,11 @@ header {
 }
 
 footer {
-  color: blue;
   text-decoration: underline;
   padding-left: 1em;
+}
+
+p, label {
+  color: blue;
 }
 
